@@ -15,6 +15,7 @@ import com.tvd12.ezyhttp.server.core.annotation.PropertiesSources;
 public class HieunbThemeStartupTest {
 
     public static void main(String[] args) throws Exception {
+        System.out.println("hell world");
         EzyHttpApplicationBootstrap.start(HieunbThemeStartupTest.class);
     }
 }
